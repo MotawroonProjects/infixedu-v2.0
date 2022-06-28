@@ -123,7 +123,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                                         end: Alignment
                                                             .bottomCenter,
                                                         colors: [
-                                                          Colors.purpleAccent,
+                                                           Color(0xFFF7B147),
                                                           Colors
                                                               .deepPurpleAccent
                                                         ]),

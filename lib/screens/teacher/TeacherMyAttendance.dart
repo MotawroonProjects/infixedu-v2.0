@@ -180,7 +180,7 @@ class _TeacherAttendanceScreenState extends State<TeacherAttendanceScreen> {
                 bottomDesign('Present', 'P', Colors.green),
                 bottomDesign('Absent', 'A', Colors.red),
                 bottomDesign('Late', 'L', Colors.yellow),
-                bottomDesign('Halfday', 'H', Colors.purpleAccent),
+                bottomDesign('Halfday', 'H',  Color(0xFFF7B147)),
                 bottomDesign('Holiday', 'F', Colors.deepPurpleAccent),
               ],
             ),
@@ -278,7 +278,7 @@ class _TeacherAttendanceScreenState extends State<TeacherAttendanceScreen> {
         return Colors.yellow;
         break;
       case 'H':
-        return Colors.purpleAccent;
+        return  Color(0xFFF7B147);
         break;
       case 'F':
         return Colors.deepPurple;

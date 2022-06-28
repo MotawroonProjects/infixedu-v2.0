@@ -658,7 +658,7 @@ class _FeeBankPaymentSearchState extends State<FeeBankPaymentSearch> {
     } else if (status == "pending") {
       return Container(
         width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(color: Colors.amber),
+        decoration: BoxDecoration(color:  Color(0xFFF7B147)),
         child: Padding(
           padding: const EdgeInsets.only(left: 5.0, right: 5.0),
           child: Text(

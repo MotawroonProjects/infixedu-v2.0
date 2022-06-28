@@ -95,7 +95,7 @@ class _ActiveOnlineExamsState extends State<ActiveOnlineExams> {
                       gradient: _userController.selectedRecord.value == record
                           ? LinearGradient(
                               colors: [
-                                Color(0xff7C32FF),
+                                Color(0xffF7B147),
                                 Color(0xffC738D8),
                               ],
                             )
@@ -327,7 +327,7 @@ class _ActiveOnlineExamRowState extends State<ActiveOnlineExamRow> {
     if (status == "waiting") {
       return Container(
         width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(color: Colors.amber.shade500),
+        decoration: BoxDecoration(color:  Color(0xFFF7B147)),
         child: Padding(
           padding: const EdgeInsets.all(5.0),
           child: Text(
@@ -396,7 +396,7 @@ class _ActiveOnlineExamRowState extends State<ActiveOnlineExamRow> {
                                 borderRadius: BorderRadius.circular(5.0),
                                 gradient: LinearGradient(
                                   colors: [
-                                    Color(0xff7C32FF),
+                                    Color(0xffF7B147),
                                     Color(0xffC738D8),
                                   ],
                                 ),

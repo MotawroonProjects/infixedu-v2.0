@@ -49,7 +49,7 @@ class _ChatPeopleSearchPageState extends State<ChatPeopleSearchPage> {
     } else if (chatStatus.status == 1) {
       return Colors.green;
     } else if (chatStatus.status == 2) {
-      return Colors.amber;
+      return  Color(0xFFF7B147);
     } else if (chatStatus.status == 3) {
       return Colors.red;
     }

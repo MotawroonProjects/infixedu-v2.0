@@ -168,7 +168,7 @@ class _DBStudentRoutineState extends State<DBStudentRoutine> {
                         gradient: _userController.selectedRecord.value == record
                             ? LinearGradient(
                                 colors: [
-                                  Color(0xff7C32FF),
+                                  Color(0xffF7B147),
                                   Color(0xffC738D8),
                                 ],
                               )

@@ -5,8 +5,8 @@ class AppConfig {
   static String appName = "InfixEdu";
 
   static String appLogo = 'assets/config/app_logo.png';
+  static String splash_bottom = 'assets/config/splash_bottom.png';
 
-  static String splashScreenBackground = 'assets/config/splash_bg.png';
 
   static String splashTopLine = 'assets/config/splash_top_line.png';
 

@@ -160,7 +160,7 @@ class _AddRazorAmountState extends State<AddRazorAmount> {
                   },
                   child: Container(
                     height: 40.0,
-                    color: Colors.purpleAccent,
+                    color:  Color(0xFFF7B147),
                     child: Center(
                       child: Text(
                         "Enter amount",

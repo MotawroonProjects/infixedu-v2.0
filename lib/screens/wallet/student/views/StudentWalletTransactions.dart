@@ -50,7 +50,7 @@ class _StudentWalletTransactionsState extends State<StudentWalletTransactions> {
                             borderRadius: BorderRadius.circular(20.0),
                             gradient: LinearGradient(
                               colors: [
-                                Color(0xff7C32FF),
+                                Color(0xffF7B147),
                                 Color(0xffC738D8),
                               ],
                             )),
@@ -77,7 +77,7 @@ class _StudentWalletTransactionsState extends State<StudentWalletTransactions> {
                               borderRadius: BorderRadius.circular(5.0),
                               gradient: LinearGradient(
                                 colors: [
-                                  Color(0xff7C32FF),
+                                  Color(0xffF7B147),
                                   Color(0xffC738D8),
                                 ],
                               )),
@@ -223,7 +223,7 @@ class _StudentWalletTransactionsState extends State<StudentWalletTransactions> {
           color: status == "approve"
               ? Colors.green
               : status == "reject"
-                  ? Colors.amber
+                  ?  Color(0xFFF7B147)
                   : Colors.red,
           borderRadius: BorderRadius.circular(5)),
       child: Text(

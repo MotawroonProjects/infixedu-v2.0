@@ -83,7 +83,7 @@ class Utils extends GetxController {
       borderRadius: BorderRadius.circular(25.0),
       gradient: LinearGradient(
         colors: [
-          Color(0xff7C32FF),
+          Color(0xffF7B147),
           Color(0xffC738D8),
         ],
       ));

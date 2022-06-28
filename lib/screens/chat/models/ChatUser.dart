@@ -70,7 +70,7 @@ class ChatUser {
     } else if (status == 1) {
       return Colors.green;
     } else if (status == 2) {
-      return Colors.amber;
+      return  Color(0xFFF7B147);
     } else if (status == 3) {
       return Colors.red;
     }

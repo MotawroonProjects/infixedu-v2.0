@@ -498,7 +498,7 @@ class _HomeState extends State<Home> {
                                                       end: Alignment
                                                           .bottomCenter,
                                                       colors: [
-                                                        Colors.purpleAccent,
+                                                         Color(0xFFF7B147),
                                                         Colors.deepPurpleAccent
                                                       ]),
                                                   borderRadius:

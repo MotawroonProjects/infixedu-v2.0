@@ -67,7 +67,7 @@ class _ChatMessageWidgetState extends State<ChatMessageWidget> {
     } else if (chatStatus == 1) {
       return Colors.green;
     } else if (chatStatus == 2) {
-      return Colors.amber;
+      return  Color(0xFFF7B147);
     } else if (chatStatus == 3) {
       return Colors.red;
     }

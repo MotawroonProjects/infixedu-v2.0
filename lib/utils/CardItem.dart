@@ -55,7 +55,7 @@ class _CustomWidgetState extends State<CustomWidget> {
                   ? LinearGradient(
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
-                      colors: [Colors.purpleAccent, Colors.deepPurpleAccent])
+                      colors: [ Color(0xFFF7B147), Colors.deepPurpleAccent])
                   : LinearGradient(colors: [Colors.white, Colors.white]),
               borderRadius: BorderRadius.circular(10.0),
             ),
@@ -64,7 +64,7 @@ class _CustomWidgetState extends State<CustomWidget> {
               children: <Widget>[
                 Image.asset(
                   widget.icon.toString(),
-                  color: widget.isSelected ? Colors.white : Colors.purpleAccent,
+                  color: widget.isSelected ? Colors.white :  Color(0xFFF7B147),
                   width: 35.w,
                   height: 35.h,
                 ),
