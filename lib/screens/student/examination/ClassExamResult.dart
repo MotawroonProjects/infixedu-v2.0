@@ -230,7 +230,7 @@ class _ClassExamResultScreenState extends State<ClassExamResultScreen> {
                           ? LinearGradient(
                               colors: [
                                 Color(0xffF7B147),
-                                Color(0xffC738D8),
+                                Color(0xffFDFFE4),
                               ],
                             )
                           : LinearGradient(

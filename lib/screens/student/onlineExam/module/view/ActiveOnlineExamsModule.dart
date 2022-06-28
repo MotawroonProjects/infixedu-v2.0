@@ -96,7 +96,7 @@ class _ActiveOnlineExamsState extends State<ActiveOnlineExams> {
                           ? LinearGradient(
                               colors: [
                                 Color(0xffF7B147),
-                                Color(0xffC738D8),
+                                Color(0xffFDFFE4),
                               ],
                             )
                           : LinearGradient(
@@ -397,7 +397,7 @@ class _ActiveOnlineExamRowState extends State<ActiveOnlineExamRow> {
                                 gradient: LinearGradient(
                                   colors: [
                                     Color(0xffF7B147),
-                                    Color(0xffC738D8),
+                                    Color(0xffFDFFE4),
                                   ],
                                 ),
                               ),

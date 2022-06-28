@@ -144,7 +144,7 @@ class QuestionSelectorWidget extends StatelessWidget {
                             gradient: LinearGradient(
                               colors: [
                                 Color(0xffF7B147),
-                                Color(0xffC738D8),
+                                Color(0xffFDFFE4),
                               ],
                             ),
                           ),
@@ -163,7 +163,7 @@ class QuestionSelectorWidget extends StatelessWidget {
                                 ? LinearGradient(
                                     colors: [
                                       Color(0xffF7B147),
-                                      Color(0xffC738D8),
+                                      Color(0xffFDFFE4),
                                     ],
                                   )
                                 : LinearGradient(
@@ -420,7 +420,7 @@ class _QuestionCardState extends State<QuestionCard>
                                   gradient: LinearGradient(
                                     colors: [
                                       Color(0xffF7B147),
-                                      Color(0xffC738D8),
+                                      Color(0xffFDFFE4),
                                     ],
                                   ),
                                 ),
@@ -546,7 +546,7 @@ class _QuestionCardState extends State<QuestionCard>
                                   gradient: LinearGradient(
                                     colors: [
                                       Color(0xffF7B147),
-                                      Color(0xffC738D8),
+                                      Color(0xffFDFFE4),
                                     ],
                                   ),
                                 ),
@@ -672,7 +672,7 @@ class _QuestionCardState extends State<QuestionCard>
                                   gradient: LinearGradient(
                                     colors: [
                                       Color(0xffF7B147),
-                                      Color(0xffC738D8),
+                                      Color(0xffFDFFE4),
                                     ],
                                   ),
                                 ),
@@ -1294,7 +1294,7 @@ class ContinueSkipSubmitBtn extends StatelessWidget {
                         gradient: LinearGradient(
                           colors: [
                             Color(0xffF7B147),
-                            Color(0xffC738D8),
+                            Color(0xffFDFFE4),
                           ],
                         ),
                       ),
@@ -1332,7 +1332,7 @@ class ContinueSkipSubmitBtn extends StatelessWidget {
                         gradient: LinearGradient(
                           colors: [
                             Color(0xffF7B147),
-                            Color(0xffC738D8),
+                            Color(0xffFDFFE4),
                           ],
                         ),
                       ),
@@ -1443,7 +1443,7 @@ class QuestionTypeWidget extends StatelessWidget {
               gradient: LinearGradient(
                 colors: [
                   Color(0xffF7B147),
-                  Color(0xffC738D8),
+                  Color(0xffFDFFE4),
                 ],
               ),
             ),

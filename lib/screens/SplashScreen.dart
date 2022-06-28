@@ -95,7 +95,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
               child: Container(
                   alignment: Alignment.bottomCenter,
                   height: MediaQuery.of(context).size.height / 2,
-                  padding: EdgeInsets.all(3),
+                  padding: EdgeInsets.all(5),
                   child: Container(
                     alignment: Alignment.bottomCenter,
                     height: 220,
