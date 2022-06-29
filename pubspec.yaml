@@ -95,9 +95,9 @@ dev_dependencies:
 
 # flutter pub run flutter_launcher_icons:main
 flutter_icons:
-  android: "launcher_icon"
-  ios: true
   image_path: "assets/config/app_icon.png"
+  android: true
+  ios: true
 
 # flutter pub run flutter_native_splash:create
 flutter_native_splash:

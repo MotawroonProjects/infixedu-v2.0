@@ -99,7 +99,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
                   child: Container(
                     alignment: Alignment.bottomCenter,
                     height: 220,
-                    width: 220,
+                    width: double.infinity,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         alignment: Alignment.bottomCenter,
